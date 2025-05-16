@@ -1,0 +1,43 @@
+container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 100vh;
+   
+}
+ 
+.grupo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+ 
+.box1 {
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+}
+ 
+.botoes {
+    display: flex;
+    gap: 5px;
+}
+ 
+.button {
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+}
+ 
+.estiloAtivo {
+    border: 5px solid rgb(76, 179, 73);
+    background-color: rgb(19, 219, 19);
+    box-shadow: 0 0 15px rgb(15, 129, 34);
+}
+ 
+button.ativo {
+    background-color: #4caf50;
+    color: white;
+}
